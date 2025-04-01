@@ -1,0 +1,28 @@
+{
+  "name": "advanced-tictactoe-cli",
+  "version": "1.0.0",
+  "description": "高度なCUI版〇×ゲーム（5×5ボードと難しいCPU対戦）",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "game",
+    "cli",
+    "tictactoe",
+    "advanced"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "readline-sync": "^1.4.10",
+    "chalk": "^4.1.2",
+    "clear": "^0.1.0",
+    "figlet": "^1.5.2",
+    "gradient-string": "^2.0.2",
+    "boxen": "^5.1.2",
+    "cli-table3": "^0.6.3",
+    "cli-spinners": "^2.8.0",
+    "nanospinner": "^1.1.0"
+  }
+}
