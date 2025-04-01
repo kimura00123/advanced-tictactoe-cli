@@ -4,7 +4,14 @@
   "description": "高度なCUI版〇×ゲーム（5×5ボードと難しいCPU対戦）",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint src"
+  },
+  "bin": {
+    "tictactoe": "./index.js"
   },
   "keywords": [
     "game",
@@ -24,5 +31,10 @@
     "cli-table3": "^0.6.3",
     "cli-spinners": "^2.8.0",
     "nanospinner": "^1.1.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "eslint": "^8.55.0",
+    "mock-fs": "^5.2.0"
   }
 }
